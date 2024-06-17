@@ -8,7 +8,7 @@ from myserver import server_on
 bot = commands.Bot(command_prefix='/', intents=discord.Intents.all())
 
   # แทนที่ด้วย TOKEN ของคุณ
-TARGET_CHANNEL_ID = 1245671140135796817  # เปลี่ยนเป็น ID ของช่องที่ต้องการ
+TARGET_CHANNEL_ID = 1252203177512538134  # เปลี่ยนเป็น ID ของช่องที่ต้องการ
 
 @bot.event
 async def on_ready():
